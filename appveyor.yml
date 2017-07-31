@@ -1,4 +1,4 @@
-﻿version: 0.4.{build}
+﻿version: 0.1.{build}
 
 platform: Any CPU
 configuration: Release
@@ -14,20 +14,20 @@ assembly_info:
   assembly_informational_version: '{version}'
 
 artifacts:
-  - path: '**\Bridge.AWS*.nupkg'
+  - path: '**\Avior*.nupkg'
 
 install:
   appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
 before_build:
   - ps: |
-      nuget restore src/Bridge.AWS.sln
-      $content = (Get-Content src/Bridge.AWS.nuspec) 
+      nuget restore Avior.sln
+      $content = (Get-Content Avior.nuspec) 
       $content = $content -replace '\$version\$',${env:APPVEYOR_BUILD_VERSION}
-      $content | Out-File src/Bridge.AWS.nuspec
+      $content | Out-File Avior.nuspec
   
 build:
-  project: src/Bridge.AWS.sln
+  project: Avior.sln
   verbosity: normal
   publish_nuget: true
 

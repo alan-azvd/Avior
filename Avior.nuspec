@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Avior</id>
+    <version>$version$</version>
+    <title>Avior</title>
+    <authors>Alan Azevedo</authors>
+    <owners>Alan Azevedo</owners>
+    <projectUrl>https://github.com/alan-azvd/Avior</projectUrl>
+    <licenseUrl>https://github.com/alan-azvd/Avior/blob/master/LICENSE</licenseUrl>
+    <description>A Bridge.NET UI Library based on Material Design</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>C# Javascript Bridge.Net UI Material</tags>
+  </metadata>
+</package>
