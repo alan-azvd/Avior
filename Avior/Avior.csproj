@@ -13,8 +13,8 @@
     <ProjectGuid>{E6C0332F-4360-403B-BA08-3B834DFA6FFF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kiso.Pages</RootNamespace>
-    <AssemblyName>Kiso.Pages</AssemblyName>
+    <RootNamespace>Avior</RootNamespace>
+    <AssemblyName>Avior</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
