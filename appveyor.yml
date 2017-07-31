@@ -19,9 +19,9 @@ configuration: Release
 before_build:
   - ps: |
       nuget restore Avior.sln
-      $content = (Get-Content Avior.nuspec) 
+      $content = (Get-Content Avior/Avior.nuspec) 
       $content = $content -replace '\$version\$',${env:APPVEYOR_BUILD_VERSION}
-      $content | Out-File Avior\Avior.nuspec
+      $content | Out-File Avior/Avior.nuspec
   
 build:
   project: Avior.sln
