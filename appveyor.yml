@@ -14,7 +14,7 @@ assembly_info:
   assembly_informational_version: '{version}'
 
 artifacts:
-  - path: '**\Avior*.nupkg'
+  - path: 'Avior*.nupkg'
 
 install:
   appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
