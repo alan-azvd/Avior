@@ -1,0 +1,122 @@
+{
+  // The folder to output JavaScript (.js) files.
+  "output": "$(OutDir)/bridge/",
+
+  // Enable the Bridge Console.
+  // Default is false.
+  "console": {
+    "enabled": false
+  },
+
+  // Enable browser debugging of C# files.
+  // Default is false.
+  "sourceMap": {
+    "enabled": true
+  },
+
+  // Set to true to disable Reflection metadata generation.
+  // Default is false.
+  "reflection": {
+    "disabled": false
+  },
+
+  // Generate TypeScript Definition (.d.ts) files.
+  // Default is false.
+  "generateTypeScript": false,
+
+  // Delete everything from the output folder
+  // Default is false
+  "cleanOutputFolderBeforeBuild": true,
+
+  "report": true,
+
+  "html": {
+    "disabled": true
+  },
+
+  "resources": [
+    /*{
+      "name": "",
+      "output": "",
+      "files": [ "" ]
+    }*/
+    {
+      "name": "bootstrap.css",
+      "output": "Resources/bsb-material/plugins/bootstrap/css",
+      "files": [ "bridge/Resources/bsb-material/plugins/bootstrap/css/bootstrap.css" ]
+    },
+    {
+      "name": "waves.css",
+      "output": "Resources/bsb-material/plugins/node-waves",
+      "files": [ "bridge/Resources/bsb-material/plugins/node-waves/waves.css" ]
+    },
+    {
+      "name": "animate.css",
+      "output": "Resources/bsb-material/plugins/animate-css",
+      "files": [ "bridge/Resources/bsb-material/plugins/animate-css/animate.css" ]
+    },
+    {
+      "name": "morris.css",
+      "output": "Resources/bsb-material/plugins/morrisjs",
+      "files": [ "bridge/Resources/bsb-material/plugins/morrisjs/morris.css" ]
+    },
+    {
+      "name": "style.css",
+      "output": "Resources/bsb-material/css",
+      "files": [ "bridge/Resources/bsb-material/css/style.css" ]
+    },
+    {
+      "name": "style.min.css",
+      "output": "Resources/bsb-material/css",
+      "files": [ "bridge/Resources/bsb-material/css/style.min.css" ]
+    },
+    {
+      "name": "all-themes.css",
+      "output": "Resources/bsb-material/css/themes",
+      "files": [ "bridge/Resources/bsb-material/css/themes/all-themes.css" ]
+    },
+    {
+      "name": "jquery-2.2.4.js",
+      "output": "Resources/jquery",
+      "files": [ "bridge/Resources/jquery/jquery-2.2.4.js" ]
+    },
+    {
+      "name": "bootstrap.js",
+      "output": "Resources/bsb-material/plugins/bootstrap/js",
+      "files": [ "bridge/Resources/bsb-material/plugins/bootstrap/js/bootstrap.js" ]
+    },
+    {
+      "name": "bootstrap-select.js",
+      "output": "Resources/bsb-material/plugins/bootstrap-select/js",
+      "files": [ "bridge/Resources/bsb-material/plugins/bootstrap-select/js/bootstrap-select.js" ]
+    },
+    {
+      "name": "jquery.slimscroll.js",
+      "output": "Resources/bsb-material/plugins/jquery-slimscroll",
+      "files": [ "bridge/Resources/bsb-material/plugins/jquery-slimscroll/jquery.slimscroll.js" ]
+    },
+    {
+      "name": "waves.js",
+      "output": "Resources/bsb-material/plugins/node-waves",
+      "files": [ "bridge/Resources/bsb-material/plugins/node-waves/waves.js" ]
+    },
+    {
+      "name": "jquery.countTo.js",
+      "output": "Resources/bsb-material/plugins/jquery-countto",
+      "files": [ "bridge/Resources/bsb-material/plugins/jquery-countto/jquery.countTo.js" ]
+    },
+    {
+      "name": "admin.js",
+      "output": "Resources/bsb-material/js",
+      "files": [ "bridge/Resources/bsb-material/js/admin.js" ]
+    },
+    {
+      "name": "Kiso.Pages.js",
+      "files": [ "$(OutputPath)/bridge/Kiso.Pages.js" ]
+    },
+    {
+      "name": "Kiso.Pages.meta.js",
+      "files": [ "$(OutputPath)/bridge/Kiso.Pages.meta.js" ]
+    }
+  ]
+}
