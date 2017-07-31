@@ -36,4 +36,4 @@ deploy:
   api_key:
     secure: WrL2uPCxsKi6WaC+BqV9F6NzgFqtc8P9rtTOrTmcNtVg8YMbbniVxWglwGau0byD
   skip_symbols: true
-  artifact: Avior*.nupkg
+  artifact: /.*\.nupkg/
