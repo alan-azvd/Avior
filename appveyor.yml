@@ -29,7 +29,7 @@ build:
   publish_nuget: true
 
 artifacts:
-  - path: Avior*.nupkg
+  - path: '**\Avior*.nupkg
     name: NuGet
 
 deploy:
