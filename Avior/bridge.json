@@ -111,12 +111,12 @@
       "files": [ "bridge/Resources/bsb-material/js/admin.js" ]
     },
     {
-      "name": "Kiso.Pages.js",
-      "files": [ "$(OutputPath)/bridge/Kiso.Pages.js" ]
+      "name": "Avior.js",
+      "files": [ "$(OutputPath)/bridge/Avior.js" ]
     },
     {
-      "name": "Kiso.Pages.meta.js",
-      "files": [ "$(OutputPath)/bridge/Kiso.Pages.meta.js" ]
+      "name": "Avior.meta.js",
+      "files": [ "$(OutputPath)/bridge/Avior.meta.js" ]
     }
   ]
 }

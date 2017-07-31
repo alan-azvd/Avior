@@ -1,7 +1,7 @@
-﻿using Bridge;
+﻿using System;
+using Bridge;
 using Bridge.Html5;
 using Avior.Components;
-using System;
 
 namespace Avior
 {
